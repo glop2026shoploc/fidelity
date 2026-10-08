@@ -37,7 +37,7 @@ services:
       KC_BOOTSTRAP_ADMIN_PASSWORD: password
       KC_HEALTH_ENABLED: true
     ports:
-      - "8181:8080"
+      - "8182:8080"
     depends_on:
       postgres-keycloak:
         condition: service_healthy
